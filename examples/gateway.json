@@ -1,0 +1,10 @@
+{
+  "upstream_base_url": "https://api.deepseek.com/v1",
+  "upstream_key_env": "RF_UPSTREAM_API_KEY",
+  "categories": {
+    "planning": {"model": "deepseek-v4-pro", "token_env": "RF_PLANNING_TOKEN"},
+    "optimization": {"model": "deepseek-v4-pro", "token_env": "RF_OPTIMIZATION_TOKEN"},
+    "review": {"model": "deepseek-v4-pro", "token_env": "RF_REVIEW_TOKEN"},
+    "evaluation": {"model": "deepseek-flash", "token_env": "RF_EVALUATION_TOKEN"}
+  }
+}

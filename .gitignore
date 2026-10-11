@@ -1,0 +1,13 @@
+.runtime/
+.runs/
+.venv/
+__pycache__/
+*.pyc
+*.sqlite3*
+*.egg-info/
+build/
+dist/
+.env*
+!.env.example
+local*.json
+private/

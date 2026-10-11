@@ -1,0 +1,12 @@
+{
+  "max_calls": 200,
+  "max_tokens": 4000000,
+  "max_seconds": 21600,
+  "max_inflight": 8,
+  "category_tokens": {
+    "planning": 200000,
+    "optimization": 1600000,
+    "review": 200000,
+    "evaluation": 2000000
+  }
+}

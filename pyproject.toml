@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neo-autoresearch-tools"
+version = "0.1.1"
+description = "Durable experiment operations for Argus research and AutoSOTA optimization"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+researchforge = "researchforge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["researchforge*"]

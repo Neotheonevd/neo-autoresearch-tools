@@ -1,0 +1,19 @@
+{
+  "backend": "autosota",
+  "objective": "Improve grounded candidate-responsibility comparison while preserving the fixed evaluator and model.",
+  "repo": "owned-method-repo",
+  "workspace": "batches/batch-001",
+  "max_iterations": 3,
+  "max_seconds": 7200,
+  "metric": {
+    "name": "joint_exact",
+    "direction": "max",
+    "baseline": 68,
+    "protocol_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "split": "development"
+  },
+  "protected": {
+    "owned-method-repo/score.py": "REPLACE_WITH_ACTUAL_SHA256"
+  },
+  "outputs": ["backend_receipt.json"]
+}
